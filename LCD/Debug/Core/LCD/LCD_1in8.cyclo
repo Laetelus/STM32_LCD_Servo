@@ -1,0 +1,16 @@
+../Core/LCD/LCD_1in8.c:22:13:LCD_1IN8_Reset	1
+../Core/LCD/LCD_1in8.c:36:13:LCD_1IN8_WriteReg	1
+../Core/LCD/LCD_1in8.c:44:13:LCD_1IN8_WriteData_8Bit	1
+../Core/LCD/LCD_1in8.c:61:13:LCD_1IN8_WriteData_NLen16Bit	2
+../Core/LCD/LCD_1in8.c:77:13:LCD_1IN8_InitReg	1
+../Core/LCD/LCD_1in8.c:178:6:LCD_1IN8_SetGramScanWay	13
+../Core/LCD/LCD_1in8.c:235:6:LCD_1IN8_Init	1
+../Core/LCD/LCD_1in8.c:264:6:LCD_1IN8_SetWindows	1
+../Core/LCD/LCD_1in8.c:291:6:LCD_1IN8_SetCursor	1
+../Core/LCD/LCD_1in8.c:302:6:LCD_1IN8_SetColor	1
+../Core/LCD/LCD_1in8.c:314:6:LCD_1IN8_DrawPaint	3
+../Core/LCD/LCD_1in8.c:331:6:LCD_1IN8_SetArealColor	3
+../Core/LCD/LCD_1in8.c:343:6:LCD_1IN8_Clear	3
+../Core/LCD/LCD_1in8.c:360:6:LCD_1IN8_Display	3
+../Core/LCD/LCD_1in8.c:377:6:LCD_1IN8_DisplayWindows	3
+../Core/LCD/LCD_1in8.c:403:6:LCD_1IN8_SetBackLight	1

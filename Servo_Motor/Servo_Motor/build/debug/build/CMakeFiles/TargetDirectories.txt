@@ -1,0 +1,3 @@
+C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/Servo_Motor/Servo_Motor/build/debug/build/CMakeFiles/Servo_Motor.dir
+C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/Servo_Motor/Servo_Motor/build/debug/build/CMakeFiles/edit_cache.dir
+C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/Servo_Motor/Servo_Motor/build/debug/build/CMakeFiles/rebuild_cache.dir
