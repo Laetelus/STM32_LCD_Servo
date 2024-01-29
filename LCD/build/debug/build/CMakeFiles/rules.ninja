@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\angel\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake.exe --regenerate-during-build -S"C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD" -B"C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD\build\debug\build"
+  command = C:\Users\angel\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake.exe --regenerate-during-build -SC:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD -BC:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD\build\debug\build
   description = Re-running CMake...
   generator = 1
 

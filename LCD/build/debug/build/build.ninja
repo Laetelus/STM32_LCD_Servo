@@ -47,71 +47,23 @@ build CMakeFiles/LCD.dir/Core/Config/DEV_Config.c.obj: C_COMPILER__LCD_Debug ../
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Config\DEV_Config.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Config
-
-build CMakeFiles/LCD.dir/Core/example/LCD_0inch96_test.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/LCD_0inch96_test.c || cmake_object_order_depends_target_LCD
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\LCD.dir\Core\example\LCD_0inch96_test.c.obj.d
-  FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
-  OBJECT_DIR = CMakeFiles\LCD.dir
-  OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\example
-
-build CMakeFiles/LCD.dir/Core/example/LCD_1inch14_test.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/LCD_1inch14_test.c || cmake_object_order_depends_target_LCD
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\LCD.dir\Core\example\LCD_1inch14_test.c.obj.d
-  FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
-  OBJECT_DIR = CMakeFiles\LCD.dir
-  OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\example
 
 build CMakeFiles/LCD.dir/Core/example/LCD_1inch28_test.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/LCD_1inch28_test.c || cmake_object_order_depends_target_LCD
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\example\LCD_1inch28_test.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\example
 
-build CMakeFiles/LCD.dir/Core/example/LCD_1inch3_test.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/LCD_1inch3_test.c || cmake_object_order_depends_target_LCD
+build CMakeFiles/LCD.dir/Core/example/Robot_Eyes.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/Robot_Eyes.c || cmake_object_order_depends_target_LCD
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\LCD.dir\Core\example\LCD_1inch3_test.c.obj.d
+  DEP_FILE = CMakeFiles\LCD.dir\Core\example\Robot_Eyes.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
-  OBJECT_DIR = CMakeFiles\LCD.dir
-  OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\example
-
-build CMakeFiles/LCD.dir/Core/example/LCD_1inch54_test.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/LCD_1inch54_test.c || cmake_object_order_depends_target_LCD
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\LCD.dir\Core\example\LCD_1inch54_test.c.obj.d
-  FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
-  OBJECT_DIR = CMakeFiles\LCD.dir
-  OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\example
-
-build CMakeFiles/LCD.dir/Core/example/LCD_1inch8_test.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/LCD_1inch8_test.c || cmake_object_order_depends_target_LCD
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\LCD.dir\Core\example\LCD_1inch8_test.c.obj.d
-  FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
-  OBJECT_DIR = CMakeFiles\LCD.dir
-  OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\example
-
-build CMakeFiles/LCD.dir/Core/example/LCD_2inch_test.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/LCD_2inch_test.c || cmake_object_order_depends_target_LCD
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\LCD.dir\Core\example\LCD_2inch_test.c.obj.d
-  FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
-  OBJECT_DIR = CMakeFiles\LCD.dir
-  OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\example
-
-build CMakeFiles/LCD.dir/Core/example/LCD_2inch4_test.c.obj: C_COMPILER__LCD_Debug ../../../Core/example/LCD_2inch4_test.c || cmake_object_order_depends_target_LCD
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\LCD.dir\Core\example\LCD_2inch4_test.c.obj.d
-  FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\example
 
@@ -119,7 +71,7 @@ build CMakeFiles/LCD.dir/Core/Fonts/font12.c.obj: C_COMPILER__LCD_Debug ../../..
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Fonts\font12.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Fonts
 
@@ -127,7 +79,7 @@ build CMakeFiles/LCD.dir/Core/Fonts/font12CN.c.obj: C_COMPILER__LCD_Debug ../../
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Fonts\font12CN.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Fonts
 
@@ -135,7 +87,7 @@ build CMakeFiles/LCD.dir/Core/Fonts/font16.c.obj: C_COMPILER__LCD_Debug ../../..
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Fonts\font16.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Fonts
 
@@ -143,7 +95,7 @@ build CMakeFiles/LCD.dir/Core/Fonts/font20.c.obj: C_COMPILER__LCD_Debug ../../..
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Fonts\font20.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Fonts
 
@@ -151,7 +103,7 @@ build CMakeFiles/LCD.dir/Core/Fonts/font24.c.obj: C_COMPILER__LCD_Debug ../../..
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Fonts\font24.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Fonts
 
@@ -159,7 +111,7 @@ build CMakeFiles/LCD.dir/Core/Fonts/font24CN.c.obj: C_COMPILER__LCD_Debug ../../
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Fonts\font24CN.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Fonts
 
@@ -167,7 +119,7 @@ build CMakeFiles/LCD.dir/Core/Fonts/font8.c.obj: C_COMPILER__LCD_Debug ../../../
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Fonts\font8.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Fonts
 
@@ -175,7 +127,7 @@ build CMakeFiles/LCD.dir/Core/GUI_DEV/GUI_Paint.c.obj: C_COMPILER__LCD_Debug ../
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\GUI_DEV\GUI_Paint.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\GUI_DEV
 
@@ -183,7 +135,7 @@ build CMakeFiles/LCD.dir/Core/image/image.c.obj: C_COMPILER__LCD_Debug ../../../
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\image\image.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\image
 
@@ -191,7 +143,7 @@ build CMakeFiles/LCD.dir/Core/LCD/LCD_0in96.c.obj: C_COMPILER__LCD_Debug ../../.
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\LCD\LCD_0in96.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\LCD
 
@@ -199,7 +151,7 @@ build CMakeFiles/LCD.dir/Core/LCD/LCD_1in14.c.obj: C_COMPILER__LCD_Debug ../../.
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\LCD\LCD_1in14.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\LCD
 
@@ -207,7 +159,7 @@ build CMakeFiles/LCD.dir/Core/LCD/LCD_1in3.c.obj: C_COMPILER__LCD_Debug ../../..
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\LCD\LCD_1in3.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\LCD
 
@@ -215,7 +167,7 @@ build CMakeFiles/LCD.dir/Core/LCD/LCD_1in54.c.obj: C_COMPILER__LCD_Debug ../../.
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\LCD\LCD_1in54.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\LCD
 
@@ -223,7 +175,7 @@ build CMakeFiles/LCD.dir/Core/LCD/LCD_1in8.c.obj: C_COMPILER__LCD_Debug ../../..
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\LCD\LCD_1in8.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\LCD
 
@@ -231,7 +183,7 @@ build CMakeFiles/LCD.dir/Core/LCD/LCD_1inch28.c.obj: C_COMPILER__LCD_Debug ../..
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\LCD\LCD_1inch28.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\LCD
 
@@ -239,7 +191,7 @@ build CMakeFiles/LCD.dir/Core/LCD/LCD_2inch.c.obj: C_COMPILER__LCD_Debug ../../.
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\LCD\LCD_2inch.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\LCD
 
@@ -247,7 +199,7 @@ build CMakeFiles/LCD.dir/Core/LCD/LCD_2inch4.c.obj: C_COMPILER__LCD_Debug ../../
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\LCD\LCD_2inch4.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\LCD
 
@@ -255,7 +207,7 @@ build CMakeFiles/LCD.dir/Core/Src/gpio.c.obj: C_COMPILER__LCD_Debug ../../../Cor
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\gpio.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -263,7 +215,7 @@ build CMakeFiles/LCD.dir/Core/Src/main.c.obj: C_COMPILER__LCD_Debug ../../../Cor
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\main.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -271,7 +223,7 @@ build CMakeFiles/LCD.dir/Core/Src/spi.c.obj: C_COMPILER__LCD_Debug ../../../Core
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\spi.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -279,7 +231,7 @@ build CMakeFiles/LCD.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__LCD_Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -287,7 +239,7 @@ build CMakeFiles/LCD.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__LCD_Debug ../.
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\stm32f1xx_it.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -295,7 +247,7 @@ build CMakeFiles/LCD.dir/Core/Src/syscalls.c.obj: C_COMPILER__LCD_Debug ../../..
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\syscalls.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -303,7 +255,7 @@ build CMakeFiles/LCD.dir/Core/Src/sysmem.c.obj: C_COMPILER__LCD_Debug ../../../C
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\sysmem.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -311,7 +263,7 @@ build CMakeFiles/LCD.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__LCD_Debug 
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\system_stm32f1xx.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -319,7 +271,7 @@ build CMakeFiles/LCD.dir/Core/Src/tim.c.obj: C_COMPILER__LCD_Debug ../../../Core
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\tim.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -327,7 +279,7 @@ build CMakeFiles/LCD.dir/Core/Src/usart.c.obj: C_COMPILER__LCD_Debug ../../../Co
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Core\Src\usart.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Core\Src
 
@@ -342,7 +294,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -350,7 +302,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.ob
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -358,7 +310,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.o
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -366,7 +318,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -374,7 +326,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -382,7 +334,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -390,7 +342,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.o
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -398,7 +350,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.ob
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -406,7 +358,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -414,7 +366,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.ob
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -422,7 +374,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.ob
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -430,7 +382,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -438,7 +390,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.ob
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -446,7 +398,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.o
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -454,7 +406,7 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d
   FLAGS = -g -g3 -mcpu=cortex-m3
-  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/GUI_DEV -I../../../Core/Fonts -I../../../Core/example -I../../../Core/LCD -I../../../Core/Config
+  INCLUDES = -I../../../Core/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../Drivers/CMSIS/Include -I../../../Core/image -I../../../Core/Config -I../../../Core/LCD -I../../../Core/example -I../../../Core/Fonts -I../../../Core/GUI_DEV
   OBJECT_DIR = CMakeFiles\LCD.dir
   OBJECT_FILE_DIR = CMakeFiles\LCD.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -466,11 +418,11 @@ build CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C
 #############################################
 # Link the executable LCD.elf
 
-build LCD.elf: C_EXECUTABLE_LINKER__LCD_Debug CMakeFiles/LCD.dir/Core/Config/DEV_Config.c.obj CMakeFiles/LCD.dir/Core/example/LCD_0inch96_test.c.obj CMakeFiles/LCD.dir/Core/example/LCD_1inch14_test.c.obj CMakeFiles/LCD.dir/Core/example/LCD_1inch28_test.c.obj CMakeFiles/LCD.dir/Core/example/LCD_1inch3_test.c.obj CMakeFiles/LCD.dir/Core/example/LCD_1inch54_test.c.obj CMakeFiles/LCD.dir/Core/example/LCD_1inch8_test.c.obj CMakeFiles/LCD.dir/Core/example/LCD_2inch_test.c.obj CMakeFiles/LCD.dir/Core/example/LCD_2inch4_test.c.obj CMakeFiles/LCD.dir/Core/Fonts/font12.c.obj CMakeFiles/LCD.dir/Core/Fonts/font12CN.c.obj CMakeFiles/LCD.dir/Core/Fonts/font16.c.obj CMakeFiles/LCD.dir/Core/Fonts/font20.c.obj CMakeFiles/LCD.dir/Core/Fonts/font24.c.obj CMakeFiles/LCD.dir/Core/Fonts/font24CN.c.obj CMakeFiles/LCD.dir/Core/Fonts/font8.c.obj CMakeFiles/LCD.dir/Core/GUI_DEV/GUI_Paint.c.obj CMakeFiles/LCD.dir/Core/image/image.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_0in96.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1in14.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1in3.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1in54.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1in8.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1inch28.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_2inch.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_2inch4.c.obj CMakeFiles/LCD.dir/Core/Src/gpio.c.obj CMakeFiles/LCD.dir/Core/Src/main.c.obj CMakeFiles/LCD.dir/Core/Src/spi.c.obj CMakeFiles/LCD.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/LCD.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/LCD.dir/Core/Src/syscalls.c.obj CMakeFiles/LCD.dir/Core/Src/sysmem.c.obj CMakeFiles/LCD.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/LCD.dir/Core/Src/tim.c.obj CMakeFiles/LCD.dir/Core/Src/usart.c.obj CMakeFiles/LCD.dir/Core/Startup/startup_stm32f103c8tx.s.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+build LCD.elf: C_EXECUTABLE_LINKER__LCD_Debug CMakeFiles/LCD.dir/Core/Config/DEV_Config.c.obj CMakeFiles/LCD.dir/Core/example/LCD_1inch28_test.c.obj CMakeFiles/LCD.dir/Core/example/Robot_Eyes.c.obj CMakeFiles/LCD.dir/Core/Fonts/font12.c.obj CMakeFiles/LCD.dir/Core/Fonts/font12CN.c.obj CMakeFiles/LCD.dir/Core/Fonts/font16.c.obj CMakeFiles/LCD.dir/Core/Fonts/font20.c.obj CMakeFiles/LCD.dir/Core/Fonts/font24.c.obj CMakeFiles/LCD.dir/Core/Fonts/font24CN.c.obj CMakeFiles/LCD.dir/Core/Fonts/font8.c.obj CMakeFiles/LCD.dir/Core/GUI_DEV/GUI_Paint.c.obj CMakeFiles/LCD.dir/Core/image/image.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_0in96.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1in14.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1in3.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1in54.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1in8.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_1inch28.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_2inch.c.obj CMakeFiles/LCD.dir/Core/LCD/LCD_2inch4.c.obj CMakeFiles/LCD.dir/Core/Src/gpio.c.obj CMakeFiles/LCD.dir/Core/Src/main.c.obj CMakeFiles/LCD.dir/Core/Src/spi.c.obj CMakeFiles/LCD.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/LCD.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/LCD.dir/Core/Src/syscalls.c.obj CMakeFiles/LCD.dir/Core/Src/sysmem.c.obj CMakeFiles/LCD.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/LCD.dir/Core/Src/tim.c.obj CMakeFiles/LCD.dir/Core/Src/usart.c.obj CMakeFiles/LCD.dir/Core/Startup/startup_stm32f103c8tx.s.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/LCD.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
   FLAGS = -g
-  LINK_FLAGS = -mcpu=cortex-m3 -T "C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/LCD/STM32F103C8TX_FLASH.ld"
+  LINK_FLAGS = -mcpu=cortex-m3 -T C:/Users/angel/Documents/STM32CUBE/Projects/Desk-Robot/LCD/STM32F103C8TX_FLASH.ld
   OBJECT_DIR = CMakeFiles\LCD.dir
-  POST_BUILD = cmd.exe /C "cd /D "C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD\build\debug\build" && arm-none-eabi-size.exe "C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/LCD/build/debug/build/LCD.elf" && cd /D "C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD\build\debug\build" && arm-none-eabi-objcopy.exe -O ihex "C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/LCD/build/debug/build/LCD.elf" LCD.hex && cd /D "C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD\build\debug\build" && arm-none-eabi-objcopy.exe -O binary "C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/LCD/build/debug/build/LCD.elf" LCD.bin"
+  POST_BUILD = cmd.exe /C "cd /D C:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD\build\debug\build && arm-none-eabi-size.exe C:/Users/angel/Documents/STM32CUBE/Projects/Desk-Robot/LCD/build/debug/build/LCD.elf && cd /D C:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD\build\debug\build && arm-none-eabi-objcopy.exe -O ihex C:/Users/angel/Documents/STM32CUBE/Projects/Desk-Robot/LCD/build/debug/build/LCD.elf LCD.hex && cd /D C:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD\build\debug\build && arm-none-eabi-objcopy.exe -O binary C:/Users/angel/Documents/STM32CUBE/Projects/Desk-Robot/LCD/build/debug/build/LCD.elf LCD.bin"
   PRE_LINK = cd .
   TARGET_FILE = LCD.elf
   TARGET_PDB = LCD.elf.dbg
@@ -480,7 +432,7 @@ build LCD.elf: C_EXECUTABLE_LINKER__LCD_Debug CMakeFiles/LCD.dir/Core/Config/DEV
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD\build\debug\build" && C:\Users\angel\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake-gui.exe -S"C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD" -B"C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD\build\debug\build""
+  COMMAND = cmd.exe /C "cd /D C:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD\build\debug\build && C:\Users\angel\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake-gui.exe -SC:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD -BC:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD\build\debug\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -492,7 +444,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD\build\debug\build" && C:\Users\angel\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake.exe --regenerate-during-build -S"C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD" -B"C:\Users\angel\Documents\STM32CUBE\Projects\Desk Robot\LCD\build\debug\build""
+  COMMAND = cmd.exe /C "cd /D C:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD\build\debug\build && C:\Users\angel\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake.exe --regenerate-during-build -SC:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD -BC:\Users\angel\Documents\STM32CUBE\Projects\Desk-Robot\LCD\build\debug\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -510,7 +462,7 @@ build LCD: phony LCD.elf
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/LCD/build/debug/build
+# Folder: C:/Users/angel/Documents/STM32CUBE/Projects/Desk-Robot/LCD/build/debug/build
 
 build all: phony LCD.elf
 

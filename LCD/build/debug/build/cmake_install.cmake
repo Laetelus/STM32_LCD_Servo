@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/LCD
+# Install script for directory: C:/Users/angel/Documents/STM32CUBE/Projects/Desk-Robot/LCD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/LCD/build/debug/install")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/angel/Documents/STM32CUBE/Projects/Desk-Robot/LCD/build/debug/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/angel/Documents/STM32CUBE/Projects/Desk Robot/LCD/build/debug/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/angel/Documents/STM32CUBE/Projects/Desk-Robot/LCD/build/debug/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
